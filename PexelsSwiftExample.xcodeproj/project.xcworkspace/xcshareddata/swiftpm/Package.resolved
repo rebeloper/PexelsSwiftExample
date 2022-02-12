@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "pexels-swift",
+        "repositoryURL": "https://github.com/rebeloper/pexels-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "2d51d2c0cc3fccd7d9c0adf564e43b203ead2e20",
+          "version": "0.0.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -11,6 +11,7 @@
 		C9AE971C27B82E5700F5CDBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE971B27B82E5700F5CDBE /* ContentView.swift */; };
 		C9AE971E27B82E5800F5CDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AE971D27B82E5800F5CDBE /* Assets.xcassets */; };
 		C9AE972127B82E5800F5CDBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AE972027B82E5800F5CDBE /* Preview Assets.xcassets */; };
+		C9AE972927B82EE500F5CDBE /* pexels-swift in Frameworks */ = {isa = PBXBuildFile; productRef = C9AE972827B82EE500F5CDBE /* pexels-swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AE972927B82EE500F5CDBE /* pexels-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = PexelsSwiftExample;
+			packageProductDependencies = (
+				C9AE972827B82EE500F5CDBE /* pexels-swift */,
+			);
 			productName = PexelsSwiftExample;
 			productReference = C9AE971627B82E5700F5CDBE /* PexelsSwiftExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = C9AE970D27B82E5700F5CDBE;
+			packageReferences = (
+				C9AE972727B82EE500F5CDBE /* XCRemoteSwiftPackageReference "pexels-swift" */,
+			);
 			productRefGroup = C9AE971727B82E5700F5CDBE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9AE972727B82EE500F5CDBE /* XCRemoteSwiftPackageReference "pexels-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/pexels-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9AE972827B82EE500F5CDBE /* pexels-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9AE972727B82EE500F5CDBE /* XCRemoteSwiftPackageReference "pexels-swift" */;
+			productName = "pexels-swift";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9AE970E27B82E5700F5CDBE /* Project object */;
 }
